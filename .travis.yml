@@ -1,0 +1,10 @@
+sudo: required
+services:
+  - docker
+
+before_install:
+  - docker build -t flasky/react -f Dockerfile.dev .
+
+script:
+  - docker run -e CI=true flasky/react npm run test -- --coverage
+
