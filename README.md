@@ -1,3 +1,6 @@
+<a class="video-player-link display-inline-block" href="https://youtu.be/Xwl0kexmtOI" title="Play Video"><div class="grid-flex grid-space-base grid-valign-middle"><div class="column no-shrink"><div class="icon-play icon-play-small"></div></div><div class="column">Watch the video</div></div></a>
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
